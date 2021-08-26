@@ -1,0 +1,48 @@
+import numpy as np
+
+print('----------')
+
+#Array
+a = np.array([1, 2, 3])
+print(a)
+
+print('----------')
+
+#2D Array
+b = np.array([[9.0, 8.0, 7.0],[6.0, 5.0, 4.0]])
+print(b)
+
+print('----------')
+
+#Get Dimension
+print(a.ndim)
+print(b.ndim)
+
+print('----------')
+
+#Get Shape
+print(a.shape)
+print(b.shape)
+
+print('----------')
+
+#Get Type
+print(a.dtype)
+print(b.dtype)
+
+print('----------')
+
+#Get Size
+print(a.itemsize)
+print(b.itemsize)
+
+print('----------')
+
+#Get Total Size (size * itemsize)
+print(a.nbytes)
+print(b.nbytes)
+
+print('----------')
+
+#Followed a tutorial made by Keith Galli
+#Download (pip install numpy) in the terminal
